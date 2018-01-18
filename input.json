@@ -1,4 +1,4 @@
 {
-  "files":"'file_1.txt' 'file_2.txt' 'file_9.txt' 'file_a.txt' ",
+  "files":["file_1.txt","file_2.txt","file_9.txt","file_a.txt"],
   "output":"out"
 }
