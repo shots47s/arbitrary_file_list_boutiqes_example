@@ -15,16 +15,23 @@
 	    "value-key": "[FILE_LIST]",
 	    "type": "File",
 	    "list": true,
-	    "optional": false
+	    "optional": false,
+            "command-line-flag":"--files"
+	},
+	{
+	    "id":"output",
+	    "name":"Output File",
+            "value-key": "[OUTPUT_PREFIX]",
+	    "type": "String",
+	    "optional": false,
+            "command-line-flag":"--out"
 	}
     ],
     "output-files":[
 	{
-	    "id":"output",
+	    "id":"output_pre",
 	    "name":"Output File",
-	    "type":"File",
-	    "value-key":"[OUTPUT_PREFIX]",
-	    "path-template":"[OUTPUT_DIR].log"
+	    "path-template":"[OUTPUT_PREFIX].log"
 	}
     ]
 }
